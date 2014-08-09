@@ -1,0 +1,8 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Parse"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/JSONModel" "${PODS_ROOT}/Headers/MJPopupViewController" "${PODS_ROOT}/Headers/MLPAccessoryBadge" "${PODS_ROOT}/Headers/MSPullToRefreshController" "${PODS_ROOT}/Headers/Parse" "${PODS_ROOT}/Headers/SDWebImage" "${PODS_ROOT}/Headers/SVProgressHUD" "${PODS_ROOT}/Headers/WYPopoverController" "${PODS_ROOT}/Headers/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/Bolts" -isystem "${PODS_ROOT}/Headers/Facebook-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" -isystem "${PODS_ROOT}/Headers/JSONModel" -isystem "${PODS_ROOT}/Headers/MJPopupViewController" -isystem "${PODS_ROOT}/Headers/MLPAccessoryBadge" -isystem "${PODS_ROOT}/Headers/MSPullToRefreshController" -isystem "${PODS_ROOT}/Headers/Parse" -isystem "${PODS_ROOT}/Headers/SDWebImage" -isystem "${PODS_ROOT}/Headers/SVProgressHUD" -isystem "${PODS_ROOT}/Headers/WYPopoverController" -isystem "${PODS_ROOT}/Headers/pop"
+OTHER_LDFLAGS = -ObjC -lc++ -framework AudioToolbox -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework ImageIO -framework MobileCoreServices -framework Parse -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration -framework UIKit -weak_framework Accounts -weak_framework Security -weak_framework Social
+PODS_ROOT = ${SRCROOT}/Pods
