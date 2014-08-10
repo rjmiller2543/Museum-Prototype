@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import "CanceledObject.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
++(id)sharedInstance;
+
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) NSMutableArray *canceledObjects;
+
+-(void)addCanceledObjectWithMajor:(NSNumber *)major andMinor:(NSNumber *)minor;
 
 @end
