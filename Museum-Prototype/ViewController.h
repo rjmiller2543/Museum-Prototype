@@ -12,13 +12,23 @@
 #import "AppDelegate.h"
 //#import <Parse/Parse.h>
 
-@interface ViewController : UIViewController <CLLocationManagerDelegate, UIAlertViewDelegate>
+@interface ViewController : UIViewController <CLLocationManagerDelegate, UIAlertViewDelegate, UIScrollViewDelegate>
 
+#pragma mark - Beacon Objects
 @property (nonatomic, retain) CLBeaconRegion *beaconRegion;
 @property (nonatomic, retain) CLLocationManager *locationManager;
 
 @property (nonatomic, retain) NSNumber *entryFlag;
 
+#pragma mark - Page Control and View
+@property (nonatomic, retain) UIPageControl *pageControl;
+@property (nonatomic, retain) UIView *artWorkView;
+@property (nonatomic, retain) UIView *artworkDescriptionView;
+@property (nonatomic, retain) UIView *artistView;
+@property (nonatomic, retain) UIView *artistDescriptionView;
+
+#pragma mark - UI Elements
+/* might be reused... */
 //View Elements
 @property (nonatomic, retain) UIScrollView *scrollView;
 @property (nonatomic, retain) UILabel *artworkLabel;

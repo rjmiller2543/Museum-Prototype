@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501ABE5319B3C1F4000321CD /* play-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 501ABE5219B3C1F4000321CD /* play-25.png */; };
 		503E962E1996AFA5006CE085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503E962D1996AFA5006CE085 /* Foundation.framework */; };
 		503E96301996AFA5006CE085 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503E962F1996AFA5006CE085 /* CoreGraphics.framework */; };
 		503E96321996AFA5006CE085 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503E96311996AFA5006CE085 /* UIKit.framework */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501ABE5219B3C1F4000321CD /* play-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-25.png"; sourceTree = "<group>"; };
 		503E962A1996AFA5006CE085 /* Museum-Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Museum-Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503E962D1996AFA5006CE085 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		503E962F1996AFA5006CE085 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				503E96661996EA71006CE085 /* play-26.png */,
+				501ABE5219B3C1F4000321CD /* play-25.png */,
 				503E96351996AFA5006CE085 /* Museum-Prototype-Info.plist */,
 				503E96361996AFA5006CE085 /* InfoPlist.strings */,
 				503E96391996AFA5006CE085 /* main.m */,
@@ -266,6 +269,7 @@
 				503E96461996AFA5006CE085 /* Images.xcassets in Resources */,
 				503E96671996EA71006CE085 /* play-26.png in Resources */,
 				503E96381996AFA5006CE085 /* InfoPlist.strings in Resources */,
+				501ABE5319B3C1F4000321CD /* play-25.png in Resources */,
 				503E96411996AFA5006CE085 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
